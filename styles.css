@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    text-align: center;
+}
+header{
+    margin: 25px;
+}
+main{
+    margin: 30px;
+    padding: 35px;
+}
+main p{
+    margin: 25px;
+}
+footer{
+    padding: 20px;
+    font-weight: bold;
+}
